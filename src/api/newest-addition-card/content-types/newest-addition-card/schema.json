@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "newest_addition_cards",
+  "info": {
+    "singularName": "newest-addition-card",
+    "pluralName": "newest-addition-cards",
+    "displayName": "NewestAdditionCard"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true,
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "span": {
+      "type": "string"
+    }
+  }
+}

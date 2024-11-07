@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "category_vertical_cards",
+  "info": {
+    "singularName": "category-vertical-card",
+    "pluralName": "category-vertical-cards",
+    "displayName": "CategoryVerticalCard",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "button": {
+      "type": "string"
+    }
+  }
+}

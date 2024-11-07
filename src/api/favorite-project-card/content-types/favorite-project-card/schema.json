@@ -1,0 +1,40 @@
+{
+  "kind": "collectionType",
+  "collectionName": "favorite_project_cards",
+  "info": {
+    "singularName": "favorite-project-card",
+    "pluralName": "favorite-project-cards",
+    "displayName": "favoriteProjectCard",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "image": {
+      "type": "media",
+      "multiple": true,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "minLength": 8,
+      "maxLength": 100
+    },
+    "span": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

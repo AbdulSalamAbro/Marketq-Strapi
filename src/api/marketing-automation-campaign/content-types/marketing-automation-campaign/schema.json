@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "marketing_automation_campaigns",
+  "info": {
+    "singularName": "marketing-automation-campaign",
+    "pluralName": "marketing-automation-campaigns",
+    "displayName": "MarketingAutomationCampaign"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true,
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "span": {
+      "type": "string"
+    }
+  }
+}
